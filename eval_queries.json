@@ -1,0 +1,34 @@
+[
+  {
+    "question": "How does correcting label noise affect diabetes prediction accuracy?",
+    "expected_chunk_id": "label_noise::chunk_2"
+  },
+  {
+    "question": "What is the difference between BM25 and dense retrieval?",
+    "expected_chunk_id": "retrieval_ranking::chunk_1"
+  },
+  {
+    "question": "How does Reciprocal Rank Fusion combine two ranked lists?",
+    "expected_chunk_id": "retrieval_ranking::chunk_2"
+  },
+  {
+    "question": "What happens if a RAG chunk is too small or too large?",
+    "expected_chunk_id": "rag_systems::chunk_2"
+  },
+  {
+    "question": "What is confident learning used for?",
+    "expected_chunk_id": "label_noise::chunk_1"
+  },
+  {
+    "question": "Why are cross-encoders more accurate but slower than bi-encoders?",
+    "expected_chunk_id": "retrieval_ranking::chunk_2"
+  },
+  {
+    "question": "How should a RAG system behave when the retrieved context doesn't answer the question?",
+    "expected_chunk_id": "rag_systems::chunk_3"
+  },
+  {
+    "question": "What is NDCG used for in retrieval evaluation?",
+    "expected_chunk_id": "retrieval_ranking::chunk_3"
+  }
+]
